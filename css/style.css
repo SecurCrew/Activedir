@@ -1,0 +1,212 @@
+body {
+  max-width: 1200px;
+  margin: auto;
+  padding: .2em;
+  line-height: 1.5em;
+  font-size: 0.9em;
+  color: #222;
+}
+
+/* Table of Contents, if wanted
+
+Add to yaml:
+
+output:
+  blogdown::html_page:
+    toc: true
+
+    */
+
+#TableOfContents, #TOC {
+  border: 1px solid #eee;
+  border-radius: 5px;
+}
+
+/* Header and Footer */
+.menu li { display: inline-block; }
+.article-meta, .menu a {
+  text-decoration: none;
+  background: #fafafa;
+  color: #222;
+  padding: 5px;
+  margin-bottom: 20px;
+  border-bottom: 0.2rem solid #555;
+}
+
+#article-subtitle {
+    margin-left: 4rem;
+    color: #444;
+}
+
+#article-author {
+    font-style: italic;
+}
+
+.terms {
+    font-size: .9em;
+}
+.menu {
+    text-align: center;
+}
+
+
+.pull-left {
+    float: left
+}
+.pull-right {
+    float: right
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Adjust background at your leisure! */
+header {
+    position: relative;
+    width: 100%;
+    height: 1.75rem;
+    font-size: 1rem;
+    background: #222;
+    margin-bottom: 1rem;
+    padding-bottom: 0.2rem;
+    padding-top: 0.2rem;
+    border-radius: 2px;
+}
+
+header ul,
+header ol {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+header nav {
+    padding: 0 0.5rem;
+}
+
+header a {
+    color: #bbb;
+    line-height: 1.75rem;
+    padding: 0 0.5rem
+}
+header a:hover,
+header .current a {
+    color: #fff;
+}
+
+/* Code Boxes */
+pre {
+  border: 1px solid #ddd;
+  box-shadow: 5px 5px 5px #eee;
+  background: #f8f8f8;
+  padding: 1em;
+  overflow-x: auto;
+  line-height: 1.2em;
+}
+code { background: #f9f9f9; }
+pre code { background: none; }
+
+/* Images, tables, misc. */
+img, iframe, video {
+  max-width: 100%;
+  height: auto;
+}
+
+img {
+    border: 1px solid #ccc;
+}
+
+main {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  font-size: 1.1em;
+}
+main a {
+    color: #0d70f2;
+}
+blockquote {
+  background: #f9f9f9;
+  border-left: 5px solid #ccc;
+  padding: 3px 1em 3px;
+}
+
+table {
+  margin: auto;
+  border-top: 1px solid #666;
+  border-bottom: 1px solid #666;
+}
+table thead th { border-bottom: 1px solid #ddd; }
+th, td { padding: 5px; }
+tr:nth-child(even) { background: #eee }
+
+.content-wrapper {
+  padding: 0px 12px 0px 12px;
+}
+
+.article-content dt {
+    font-weight: bold;
+}
+
+.article-content dd {
+    font-size: 90%;
+}
+
+#main-image {
+  min-width: 40px;
+  float: right;
+  padding: 10px;
+  display: block;
+}
+
+.main-list-title {
+    font-size: 120%;
+}
+
+.main-list-title a {
+}
+
+.main-list-date {
+    font-size: 90%;
+}
+
+
+
+/* Custom */
+
+figcaption {
+    text-align: center;
+    font-size: 80%;
+    font-style: italic;
+}
+
+footer {
+    width: 100%;
+    height: 2.0rem;
+    background: #222;
+    color: #999;
+    margin-top: 2rem;
+    padding-top: 0.4rem;
+    text-align: center;
+    border-radius: 2px;
+}
+
+footer a {
+    color: inherit;
+    font-style: italic;
+}
+
+
+.img-16 {
+    width: 16px;
+    height: 16px;
+}
+
+.img-32 {
+    width: 32px;
+    height: 32px;
+}
